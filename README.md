@@ -14,7 +14,7 @@ This is a solution to the [FAQ accordion challenge on Frontend Mentor](https://w
 
 ### Links
 
-- [Solution URL](https://www.frontendmentor.io/solutions/responsive-recipe-page-using-tailwind-css-khcyybd1G4)
+- [Solution URL](https://www.frontendmentor.io/solutions/responsive-faq-accordion-using-tailwind-css-5LESieFIQ_)
 - [Live Site URL](https://frontendmentor-faq-accordion.vercel.app/)
 
 ## My process
