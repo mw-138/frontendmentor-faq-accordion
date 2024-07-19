@@ -38,7 +38,7 @@ export default function AccordionItem({
 
   return (
     <section className="flex-col w-full rounded-lg p-2 flex">
-      <h2
+      <h1
         className="cursor-pointer font-[600] text-darkPurple hover:text-purple transition-colors duration-200 flex items-center justify-between"
         onClick={() => setSelectedIndex(isOpen ? undefined : index)}
       >
@@ -50,7 +50,7 @@ export default function AccordionItem({
           alt="toggle indicator"
           className="h-fit w-8"
         />
-      </h2>
+      </h1>
       <section
         ref={contentRef}
         className={cn(
