@@ -9,9 +9,7 @@ interface AccordionProps {
 }
 
 export default function Accordion({ entries }: AccordionProps) {
-  const [selectedIndex, setSelectedIndex] = useState<number | undefined>(
-    undefined
-  );
+  const [selectedIndex, setSelectedIndex] = useState<number | undefined>(0);
 
   return (
     <section className="flex flex-col gap-2">
