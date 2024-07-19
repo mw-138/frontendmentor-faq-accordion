@@ -31,3 +31,12 @@ body {
     text-wrap: balance;
   }
 }
+
+@layer base {
+  p {
+    @apply text-[16px] text-grayPurple;
+  }
+  .background-img {
+    @apply w-screen absolute top-0 left-0;
+  }
+}
